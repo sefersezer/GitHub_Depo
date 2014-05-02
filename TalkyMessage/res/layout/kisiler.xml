@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/giris_arka_plan" >
+
+    <fragment
+        android:id="@+id/kisilerListFragment"
+        android:name="com.proje.talkymessage.fragment.KisilerListFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:layout="@layout/kisiler_list_item" />
+
+</RelativeLayout>

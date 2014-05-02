@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/profilRelativeLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/giris_arka_plan" >
+
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="vertical" >
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" >
+
+          <ImageButton
+              android:id="@+id/profilImageButton"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@drawable/profile_photo" />
+
+          <EditText
+              android:id="@+id/txtKullaniciAdi"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:ems="10"
+              android:hint="@string/kullanici_adi"
+              android:textColor="@android:color/white"><requestFocus /></EditText>
+
+      </LinearLayout>
+
+      <EditText
+          android:id="@+id/txtAd"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:ems="10"
+          android:hint="@string/ad_zorunlu"
+          android:textColor="@android:color/white" />
+
+      <EditText
+          android:id="@+id/txtSoyad"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:ems="10"
+          android:hint="@string/soyad_zorunlu"
+          android:textColor="@android:color/white" >
+
+          
+      </EditText>
+
+      <EditText
+          android:id="@+id/txtTel"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:ems="10"
+          android:hint="@string/telefon"
+          android:inputType="phone"
+          android:textColor="@android:color/white" />
+
+      <EditText
+          android:id="@+id/txtMail"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:ems="10"
+          android:hint="@string/email"
+          android:inputType="textEmailAddress"
+          android:textColor="@android:color/white" />
+
+      <Button
+          android:id="@+id/btnKaydet"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="@string/kaydet"
+          android:textColor="@android:color/white" />
+
+  </LinearLayout>
+
+</RelativeLayout>

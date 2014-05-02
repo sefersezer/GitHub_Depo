@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <header android:fragment="com.proje.talkymessage.fragment.GizlilikPreferencesFragment"
+            android:icon="@drawable/pref_gizlilik"
+            android:title="@string/pref_category_gizlilik_title"
+            android:summary="@string/pref_category_gizlilik_summary" />
+    
+    <header android:fragment="com.proje.talkymessage.fragment.UyarilarPreferencesFragment"
+            android:icon="@drawable/pref_uyari"
+            android:title="@string/pref_category_uyarilar_title"
+            android:summary="@string/pref_category_uyarilar_summary" />
+    
+  
+
+</preference-headers>
